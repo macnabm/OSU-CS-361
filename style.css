@@ -1,0 +1,25 @@
+body {
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.center {
+    text-align: center;
+}
+
+.error {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.w50 {
+    width: 60%;
+}
