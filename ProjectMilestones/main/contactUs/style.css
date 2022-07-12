@@ -1,0 +1,17 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar span {
+    color: rgb(255, 217, 0);
+    font-weight: bold;
+    font-size: 110%
+}
+
+.navbar {
+    margin-bottom: 2%;
+}
+
+h1 {
+    text-align: center;
+}

@@ -1,0 +1,166 @@
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 25%;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2%;
+}
+
+table td {
+    width: 76%;
+}
+
+table td, th {
+    vertical-align: top;
+    padding: 1%;
+    border: 2px solid rgb(72, 72, 72);
+}
+
+.icon {
+    width: 20%;
+}
+
+.specialty {
+    color: grey;
+}
+
+.name a {
+    text-decoration: none;
+    color: rgb(57, 57, 57);
+}
+
+.name a:hover {
+    text-decoration: underline;
+}
+
+.table {
+    overflow: auto;
+}
+
+button {
+    background-color: white;
+    border: 0;
+    padding-left: 0;
+}
+
+#profile1 {
+    display: none;
+}
+
+#profile2 {
+    display: none;
+}
+
+#profile3 {
+    display: none;
+}
+
+#profile4 {
+    display: none;
+}
+
+.profile h1 {
+    text-align: center;
+}
+
+.profile .sub-profile {
+    width: 100%;
+    padding: 0.5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 2px solid black;
+    background-color: lightgrey;
+}
+
+.profile h2 {
+    margin: 1.5%;
+}
+
+.profile table {
+    width: 90%;
+    padding: 1%;
+    padding-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 0 20%;
+    font-size: 110%;
+}
+
+.profile table td, .profile table th {
+    text-align: left;
+    background-color: none;
+    border: 0px;
+    width: 20%;
+}
+
+.profile table a {
+    text-decoration: none;
+    color: rgb(2, 103, 0);
+}
+
+.profile table a:hover {
+    color: rgb(2, 103, 0);
+    text-decoration: underline;
+}
+
+.profile img {
+    width: 70%;
+    max-width: 350px;
+    padding: 0;
+    border: 2px solid black;
+    padding: 1%;
+}
+
+.back {
+    padding: 2%;
+    font-size: 120%;
+    background-color: rgb(195, 0, 0);
+    border: 2px solid black;
+    color: white;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+.profile {
+    margin-bottom: 2%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile ul {
+    padding: 0;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: white;
+    border: 2px solid black;
+}
+.profile li {
+    list-style-type: none;
+}
+
+.profile li a {
+    text-decoration: none;
+    color:rgb(57, 57, 57);
+    text-align: left;
+}
+
+.profile li a:hover {
+    color:rgb(57, 57, 57);
+    text-decoration: underline;
+}
