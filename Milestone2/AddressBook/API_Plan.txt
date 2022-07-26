@@ -1,0 +1,41 @@
+Get /api/
+
+{
+	"Addresses" : [
+		{
+			"first_name" : occupant first name,
+			"last_name" : occupant last name
+			"street_address"  : street address
+			"zipCode" = zip code
+			"state" = state letters
+			"city" = city name
+		},{...}
+	]
+
+}
+Post /api/
+{
+		 "Address" :{
+				"street_address"  : street address
+				"zipCode" = zip code
+				"state" = state letters
+				"city" = city name
+			}
+}
+
+
+
+
+class Address(models.Model):
+    occupant = models.ForeignKey(
+        settings.AUTH_USER_MODEL,
+        default=unoccupied,
+        on_delete=models.SET_DEFAULT,
+    )
+    street_address = models.TextField()
+    zipCode = models.TextField()
+    state = models.TextField()
+    city = models.TextField()
+
+    def __str__(self):
+        return str(self.occupant.first_name) + " " + self.zipCode

@@ -1,0 +1,6 @@
+To enter in terminal:
+
+pipenv install
+pipenv shell
+pip install -r requirements.txt
+python manage.py runserver
